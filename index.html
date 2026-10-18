@@ -4,63 +4,64 @@
   <metacharset="UTF-8">
   <title>Girl Gamer Glitterpink16</title>
 
-  <style>
-    body{
-      margin: 0;
-      min-height:100vh;
-      font-family:Arial,san-serif; 
+    <style>
+      body{
+      margin:0;
+      min-height: 100vh;
+      font-family: Arial, sans-serif;
+      color:white;
       text-align: center;
-      color: white;
-      padding-top:100px;  
-      background: #ff69b4;
       overflow: hidden;
 
-      background:
-      radial-gardient (circle at 20% 20%, #ffb6c1, transparent 25% ),
-      radial-gardient (circle at 80% 30%, #ff1493, transparent 30%),
-      radial-garident (circle at 50% 70%, #ffa6c9, transparent 35%),
-      linear-gradient (180deg, #2b003d 0%,#5a006d 40%, #ff4fa3 100%);
-    }  
+        backgound:
+          radial-gradient(circle at 20% 20%, #ffb6d9, transparent30%),
+          radial-gradient(circle at 80% 30%, #ff66b2, transparent35%),
+          radial-gradient(circle at 50% 75%, #ff99cc, transparent40%),
+
+          linear-gradient(#5a003d,#a6006f,#ff5fa2);
+      }
+
+      h1{
+       margin-top;120px; 
+      }
+
+      p{
+        font-size:22px;
+      }
+
       .star{
         position:absolute;
-        color: white;
-        font-size: 24px;
-        animation: moveStars 8s linear infinite;
+        color:white;
+        fontsize:26px;
+        animation:twinkle 2s infinite;
       }
-    
-      .star:nth-child(1){left:10%;top:90%;animation-delay:0s;}
-      .star:nth-child(2){left:25%top:95%;animation-delay:1s;}
-      .star:nth-child(3)left:45%;top:92%;animation-delay:2s;}
-      .star:nth-child(4)left:65%;top:96%;animation-delay:3s;}
-      .star:nth-child(5)left:85%;top93%;animation-delay:4s;}
 
-    @keyframes movesStars {
-     0%{
-       opacity:0;
-        transform:translateY(0); 
-     }
-    
-        20%{
-       opacity:1;
-       }
-        
-     100% {
-       opacity:0; 
-       transform:translateY(-110vh); 
+      .star1{ top:15%;left:15%;}
+      .star2{ top:25%;left:75%;}
+      .star3{ top:60%;left:25%;}
+      .star4{ top:70%;left:80%;}
+      .star5{ top:40%;left:50%}
+
+      @keyframes twinkle {
+        0%,100% {
+          opacity: 1;
+        }
       }
-    }
-</style>
-</head>
+    </style>
+   </head>
 
-<body>
-
-<div class="star">&#9733;</div>
-<div class="star">&#9733;</div>
-<div class="star">&#9733;</div>
-<div class="star">&#9733;</div>
-<div class="star">&#9733;</div>
+  <body>
+    
+  <div class="star star1">&#10022;</div>
+  <div class="star star2">&#10022;</div>
+  <div class="star star3">&#10022;</div>
+  <div class="star star4">&#10022;</div>
+  <div class="star star5">&#10022;</div>
 
 <h1> Girl Gamer GlitterPink16</h1>
 <p> Learning to create and coding </p>
+
+</body>
+</html>
 
 
